@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    
+    background: rgb(125,185,232); /* Old browsers */
+    background: linear-gradient(to bottom,  rgba(125,185,232,1) 0%,rgba(25,122,170,1) 100%); /* W3C */
+
+
+}
+
+header {
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(41,154,11,0.5);   
+    
+    transition: background 1s ease-out;
+    
+    box-shadow: 12px 012px 12px rgba(0,0,0,0);
+    transition: box-shadow 0.5s ease-out;
+}
+
+header:hover{  
+    box-shadow: 12px 012px 12px rgba(0,0,0,1);
+    background-color: rgba(41,154,11,1);
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    top: 100px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #00b294; 
+}
+
+footer h2{
+    font-family: 'Oswald', sans-serif;  
+    text-align: center;
+    line-height: 5px;
+    font-size: 30px;
+    
+}
+
+footer p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.corpo{
+    width: 237px; 
+    height: 463px;
+    border-radius: 15px;
+    border: solid 4px rgb(57,58,62); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -231.5px;
+    margin-left: -118.5px;
+    
+    background: rgb(60,60,60); /* Old browsers */
+    background: linear-gradient(to bottom,  rgba(60,60,60,1) 0%,rgba(27,27,27,1) 51%,rgba(33,33,33,1) 100%);
+    
+    box-shadow: 12px 012px 12px rgba(0,0,0,0); /*efeito de transição de sombra do lumia*/
+    transition: box-shadow 0.5s ease-out;
+    
+    z-index: 1;
+}
+
+.corpo:hover{
+    box-shadow: 12px 012px 12px rgba(0,0,0,1);
+}
+
+/* em projeto ============================================================================================
+.luz{
+    width: 300px; 
+    height: 116px;
+    background-color: rgba(200,200,200,.5);
+    border-radius: 100px;
+    position: absolute;
+    z-index: 0;
+    
+    top: 50%;
+    left: 50%;
+    margin-top: 181px;
+    margin-left: -144.5px;
+    
+    transform: rotateX(50deg) rotateZ(0deg);
+    
+    background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(219,219,219,0.45) 51%,rgba(255,255,255,0) 100%);  W3C 
+
+    
+============================================================================================
+*/
+
+.fone{
+    width: 53px;
+    height: 5px;
+    border-radius: 1px;
+    margin: 16px auto 0;
+    background-color: rgb(28,28,28)
+}
+
+.sensor{
+    width: 9px;
+    height: 9px;
+    border-radius: 8px;
+    float: right;
+    margin-top: -13px;
+    margin-right: 70px;
+    padding: 0;
+    
+    background: rgb(64,64,64); /* Old browsers */
+    background: radial-gradient(ellipse at center,  rgb(64,64,64) 9%,rgb(80,80,80) 29%,rgb(68,68,68) 47%,rgb(72,72,72) 71%,rgb(80,80,80) 93%); /* W3C */
+
+}
+
+
+.logo img{
+    font-size: 10px;
+    float: right;
+    margin-top:-3px;
+    margin-right: 14px;
+    width: 38px;
+    height: 6px;
+}
+
+.tela{
+    margin: 11px 11.5px 0 11.5px;
+}
+
+.pesquisar img{
+    width: 11px;
+    height: 9px;
+    opacity: 0.70;  
+    float: right;
+    margin-right: 33px;
+    margin-top: 8px;
+}
+
+.voltar img{
+    width: 10px;
+    height: 8px;
+    opacity: 0.70;
+    float: left;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+
+.home{
+    margin-left:48%;
+    margin-top: 8px;
+    opacity: 0.40;
+    width: 12px;
+    height: 13px
+
+}
+.home img{
+    width: 12px;
+    height: 13px   
+}
+
+.home .voltar .pesquisar{
+    display: inline;   
+}
+
+.microfone{
+    width: 3px;
+    height: 3px;
+    background-color: rgb(5,5,5);
+    border-radius: 6px;
+    margin-left: 50%;
+    margin-top: 17px;
+}
+.antena1{
+    height: 4px;
+    width: 7px;
+    background-color: rgb(85,86,90);
+    margin-top:-4px;
+    margin-left: 95px;
+}
+
+.antena2{
+    height: 4px;
+    width: 7px;
+    background-color: rgb(85,86,90);
+    float: right;
+    margin-right: 95px;
+    margin-top: -4px;
+}
+
+.volume{
+    width: 2px;
+    height: 74px;
+    background-color: rgb(71,71,73);
+    float: right;
+    margin-right: -6px;
+    margin-top: 98px;
+}
+
+.block{
+    width: 2px;
+    height: 29px;
+    background-color: rgb(71,71,73);
+    float: right;
+    margin-right: -6px;
+    margin-top: 204px;
+}
