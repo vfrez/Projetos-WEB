@@ -31,11 +31,13 @@ header:hover{
     background-color: rgba(41,154,11,1);
 }
 
-h1{
+header h1{
     font-family: 'Oswald', sans-serif;
     text-align: center;
     top: 100px;
+    text-decoration: underline;
 }
+
 
 
 footer{
